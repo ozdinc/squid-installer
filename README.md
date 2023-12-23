@@ -16,15 +16,9 @@ Auto install Squid 3 proxy on following linux OS.
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid3-install.sh -O squid3-install.sh
+wget https://raw.githubusercontent.com/ozdinc/squid-installer/master/squid3-install.sh -O squid3-install.sh
 sudo bash squid3-install.sh
 ```
-
-## Videos - How to install Squid Proxy Server.
-
-[![How to install Squid Proxy Server in DigitalOcean VPS](https://i.imgur.com/eGt5nmB.png)](https://rumble.com/vdswgv-install-squid-proxy-server-in-digitalocean-vps.html)
-
-https://rumble.com/vdswgv-install-squid-proxy-server-in-digitalocean-vps.html
 
 
 # Create Proxy Users
@@ -64,18 +58,7 @@ Before you can configure squid to use muliple IP address, you need to add IP to 
 Once IP added to your server, you can configure it to use with squid proxy by running following command
 
 ```
-wget https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid-conf-ip.sh
+wget https://raw.githubusercontent.com/ozdinc/squid-installer/master/squid-conf-ip.sh
 sudo bash squid-conf-ip.sh
 ```
 
-# Change Squid Proxy Port
-
-Default squid proxy port is 3128. This blog post will show how to change squid port.
-
-https://serverok.in/how-to-change-port-of-squid-proxy-server
-
-# Support
-
-If you need professional assistance, reach out to
-
-https://serverok.in/contact
